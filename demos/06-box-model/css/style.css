@@ -1,0 +1,12 @@
+div {
+    border: 5px solid red;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: pink;
+}
+p {
+    border-radius: 10px;
+    background-color: lightblue;
+    margin: 60px;
+    padding: 48px 60px;
+}
