@@ -1,0 +1,36 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.image-1 {
+    margin-top: 60px;
+    width: 90px;
+    border: 8px solid maroon;
+    padding: 10px;
+}
+.image-3 {
+    margin-top: 60px;
+    width: 90px;
+    border: 8px solid maroon;
+    padding: 10px;
+}
+.image-2 {
+    margin: 50px 12px;
+    width: 124px;
+}
+.text {
+    background-image: url("../images/Tezza-2213.JPG");
+    height: 150px;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    margin: 50px 20px
+}
+div.text p {
+    margin-top: 75px;
+    color: white
+}
