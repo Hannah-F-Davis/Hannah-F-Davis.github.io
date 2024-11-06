@@ -7,15 +7,17 @@
     Good luck, and have fun!
 */
 .image-1 {
-    margin-top: 60px;
+    background-color: rgb(126, 59, 59);
+    margin-top: 65px;
     width: 90px;
-    border: 8px solid maroon;
+    border: 3px solid maroon;
     padding: 7px;
 }
 .image-3 {
-    margin-top: 60px;
+    background-color:  rgb(126, 59, 59);;
+    margin-top: 65px;
     width: 90px;
-    border: 8px solid maroon;
+    border: 3px solid maroon;
     padding: 7px;
 }
 .image-2 {
@@ -33,7 +35,9 @@
 div.text p {
     margin-top: 75px;
     color: white;
+    border: 10px;
     background-color: maroon;
+    border-radius: 10px;
     padding: 10px;
     font-size: 12px;
 }
