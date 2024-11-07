@@ -6,20 +6,27 @@ body {
     font-family: sans-serif;
 }
 .single-column {
-    /* background-color: lightgreen; */
-    width: 50%;
+    background-color: white;
+    width: 75%;
+    padding: 50px;
     min-width: 500px;
     margin: 50px auto;
 }
+.light-container-1 {
+    background-color: lightpink;
+    padding: 48px 0px;
+}
 .light-container {
-    background-color: lightgreen;
+    background-color: lightblue;
     padding: 48px 0px;
 }
 .dark-container {
     background-color: #013D01;
-    color: white;
+    color: black;
     padding: 48px 0px;
 }
-.photo {
-    width: 275px;
+.photo-1,
+.photo-3,
+.photo-2 {
+    width: 400px;
 }
