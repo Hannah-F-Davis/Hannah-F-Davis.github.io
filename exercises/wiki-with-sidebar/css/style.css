@@ -17,6 +17,7 @@ body {
 #main-content {
     flex: 1;
     padding: 48px;
+    max-width: 700px;
 }
 #sidebar-content h2 {
     border-bottom: 2px solid #72a586;
@@ -36,4 +37,15 @@ body {
 #main-content {
     flex: 1;
     padding: 
+}
+#main-content h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+#main-content h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+#main-content p {
+    margin-top: 10px;
 }
