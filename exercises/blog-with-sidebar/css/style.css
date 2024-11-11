@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 450px 250px 1fr;
+    grid-template-areas: ".content sidebar.";
+    margin:36px 0px
+}
+#sidebar-content {
+    /* background-color: lightblue; */
+    grid-area: sidebar;
+    padding: 18px;
+}
+#sidebar-content h2 {
+    background-color: gray;
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+}
+#sidebar-content ul {
+    background-color: #EFEFEF;
+    border: 1px solid gray;
+    margin: 0px 0px 36px; 
+    list-style-type: none;
+    padding: 0px 12px;
+}
+#sidebar-content a {
+    color: black;
+    text-decoration: none;
+}
+#sidebar-content li {
+    border-bottom: 1px solid gray;
+    padding: 8px 0px;
+}
+#sidebar-content li:last-child {
+    border-bottom: 0px;
+}
+#main-content {
+    /* background-color: lightgreen; */
+    grid-area: content;
+    margin: 18px 24px;
+    border: 5px solid gray;
+    padding: 30px;
+}
+.title {
+    margin-bottom: 15px;
+}
+.subtitle {
+    margin: 0px
+}
+.author {
+    margin-top: 15px;
+}
+#worship-photo {
+    padding: 5px 20px;
+    width: 325px;
+}
+#worship-photo-2 {
+    padding: 5px 20px;
+    width: 325px;
+}
+#paintball-photo {
+    padding: 5px 30px;
+    width: 325px;
+}
+#rock-climbing-photo {
+    padding: 5px 30px;
+    width: 325px;
+}
+#sidebar-content a:hover {
+    background-color: gray;
+    padding: 8px;
+}
