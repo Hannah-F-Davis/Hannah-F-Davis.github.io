@@ -7,17 +7,15 @@ body{
 }
 #layout {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 150px 400px 1fr;
+    margin-top: 70px;
 }
 #column-1 {
-    background-color: green;
-    min-height: 100vh;
 }
 #column-2 {
-    background-color: red;
 }
 #column-3 {
-    background-color: yellow;
+    margin: 0px 24px;
 }
 .fake-button {
     background-color: #0053a0;
@@ -25,10 +23,55 @@ body{
     border-radius: 24px;
     text-align: center;
     color: white;
-    margin: 12px;
+    margin: 5px 18px;
     display: inline-block;
     min-width: 200px;
+    width: 100%;
+}
+.fake-button-2 {
+    background-color: white;
+    padding: 12px;
+    border: #0053a0 solid ;
+    border-radius: 24px;
+    text-align: center;
+    color: #0053a0;
+    margin: 5px 18px;
+    display: inline-block;
+    min-width: 200px;
+    width: 100%;
+}
+.fake-button-3 {
+    background-color: white;
+    padding: 12px;
+    border: #0053a0 solid ;
+    border-radius: 24px;
+    text-align: center;
+    color: #0053a0;
+    margin: 5px 18px;
+    display: inline-block;
+    min-width: 200px;
+    width: 100%;
 }
 #nike-photo {
-    width: 300px
+    margin-top: 10px=;
+    width: 100%;
+    min-width: 400px;
+    max-width: 550px;
+}
+.nikes {
+    width: 75%;
+    padding: 8x;
+    
+    margin-left: 26px;
+    max-width: 200px;
+    margin-top: 0px;
+}
+#column-3 h2 {
+   margin-top: 0px;
+}
+#column-3 p {
+    margin-top: 18px;
+}
+#column-3 a {
+    display: block;
 }
