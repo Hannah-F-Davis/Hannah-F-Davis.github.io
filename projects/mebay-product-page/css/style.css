@@ -23,7 +23,7 @@ body{
     border-radius: 24px;
     text-align: center;
     color: white;
-    margin: 5px 18px;
+    margin: 5px;
     display: inline-block;
     min-width: 200px;
     width: 100%;
@@ -35,7 +35,7 @@ body{
     border-radius: 24px;
     text-align: center;
     color: #0053a0;
-    margin: 5px 18px;
+    margin: 5px;
     display: inline-block;
     min-width: 200px;
     width: 100%;
@@ -47,13 +47,13 @@ body{
     border-radius: 24px;
     text-align: center;
     color: #0053a0;
-    margin: 5px 18px;
+    margin: 5px;
     display: inline-block;
     min-width: 200px;
     width: 100%;
 }
 #nike-photo {
-    margin-top: 10px=;
+    /* margin-top: 10px; */
     width: 100%;
     min-width: 400px;
     max-width: 550px;
@@ -61,7 +61,6 @@ body{
 .nikes {
     width: 75%;
     padding: 8x;
-    
     margin-left: 26px;
     max-width: 200px;
     margin-top: 0px;
@@ -71,7 +70,14 @@ body{
 }
 #column-3 p {
     margin-top: 18px;
+    color: gray;
 }
 #column-3 a {
     display: block;
+}
+#column-3 h3 {
+    font-size: 26px;
+}
+#condition p {
+    color: black;
 }
