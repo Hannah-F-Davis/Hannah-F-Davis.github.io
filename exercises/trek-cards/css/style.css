@@ -35,6 +35,6 @@
     text-align: center;
 }
 .card-style-1:hover {
-    box-shadow: 4px 4px 20px rgb(57, 55, 55) 
+    box-shadow: 4px 4px 20px rgb(57, 55, 55);
     transform: translateY(-10px);
 }
