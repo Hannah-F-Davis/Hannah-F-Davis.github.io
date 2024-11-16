@@ -8,14 +8,18 @@
 */
 #license {
     width: 700px;
-    border: 4px solid black;
+    border: 2px solid black;
     border-radius: 40px;
     padding: 24px;
+    background: linear-gradient(140deg, goldenrod, orange);
+    box-shadow: 4px 4px 12px rgb(49, 46, 46);
+    font-family: sans-serif;
 }
 #content h1 {
     font-size: 50px;
     color: darkblue;
     margin: 0px;
+    font-family: initial;
 }
 #left-side h4 {
     margin: 0px;
@@ -33,8 +37,15 @@
     display: inline-block;
     width: 34%;
 }
-#id-and-expitation div span {
+#left-side #id-and-expiration div span {
     display: inline-block;
+    color: red;
+    padding: 8px;
+}
+#left-side #id-and-expiration div {
+    display: inline-block;
+    color: darkblue;
+    margin-left: 8px
 }
 #small-pic-container,
 #data-fields {
@@ -47,8 +58,20 @@
 #data-right {
     display: inline-block;
 }
+#data-left,
+#data-right {
+    display: inline-block;
+    color: darkblue;
+    margin: 8px;
+}
+#data-left span,
+#data-right span{
+    color: red;
+    font-weight: bold;
+}
 #signature {
     font-family: cursive;
+    font-size: 24px;
     text-align: center;
 }
 #right-side img {
@@ -57,10 +80,20 @@
 #donor,
 #real-id {
     display: inline-block;
+    margin: 12px;
 }
 #donor {
     color:red;
+    font-weight: bold;
+    padding-left: 16px;
 }
 #real-id {
     color: white;
+    border: 3px solid rgb(255, 217, 64);
+    border-radius: 50%;
+    background-color: rgb(255, 217, 64);
+}
+#address {
+    font-weight: bold;
+    margin: 8px;
 }
