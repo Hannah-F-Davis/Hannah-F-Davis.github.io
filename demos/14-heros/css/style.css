@@ -111,3 +111,10 @@ body {
     margin-right: 12px;
     margin-left:12px
 }
+.parallax-banner {
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url("../images/emerald-seas.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
