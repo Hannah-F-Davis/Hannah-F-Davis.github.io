@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#layout {
+    max-width: 1500px;
+    margin: 48px;
+    text-align: center;
+}
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 36px;
+    padding: 12px;
+    align-items: center;
+}
+.grid-gallery img {
+    width: 325px;
+}
+#hero-2 {
+    background-image: url("../images/Tezza-9601.JPG");
+    height: 100vh;
+    background-size: center;
+    background-position: center center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 60px;
+    margin-bottom: 100px;
+}
+#hero-2 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+#hero-2 h4 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
