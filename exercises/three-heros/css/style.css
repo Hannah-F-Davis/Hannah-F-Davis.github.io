@@ -5,54 +5,62 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-#hero-2 {
+#hero-1 {
     background-image: url("../images/free-photo-of-autumn-reflections-at-austrian-mountain-lake.jpeg");
     height: 100vh;
-    background-size: center;
+    background-size: cover;
     background-position: center center;
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    padding-right: 60px;
-    margin-bottom: 100px;
+    justify-content: flex-start;
+    align-items: center;
 }
-#hero-2 h2 {
-    font-size: 72px;
+#hero-1 h2 {
+    font-size: 100px;
     margin-bottom: 36px;
     color: white;
+    margin-top: 300px;
+    margin-bottom: 8px;
 }
-#hero-2 a {
-    font-size: 14px;
+#hero-1 h4 {
+    font-size: 36px;
+    text-decoration: overline;
+    color: orange;
+    margin-top: 0px;
+    text-shadow: 6px 6px 12px rgb(142, 59, 3);
+}
+#hero-1 a {
+    font-size: px;
     display: inline-block;
     background-color: white;
     color: #333333;
     text-decoration: none;
     padding: 24px;
-    margin-top: 36px;
+    margin-top: 0px;
 }
-#hero-3 {
+#hero-2 {
     background-image: url("../images/pexels-olia-danilevich-5088017.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
     position: relative;
     margin-bottom: 100px;
+    margin: 0px;
 }
-#hero-3 .hero-content {
+#hero-2 .hero-content {
     position: absolute;
-    top: 30%;
-    left: 30%; 
+    top: 8%;
+    left: 20%; 
 }
-#hero-3 h2 {
+#hero-2 h2 {
     font-size: 72px;
     margin-bottom: 36px;
 }
-#hero-3 h4 {
+#hero-2 h4 {
     font-size: 24px;
     margin: 0px;
 }
-#hero-3 a {
+#hero-2 a {
     font-size: 14px;
     display: inline-block;
     background-color: #333333;
@@ -62,7 +70,7 @@ body {
     margin-top: 36px;
     margin-right: 24px;
 }
-#hero-4 {
+#hero-3 {
     background-image: url("../images/IMG_9742.jpg");
     height: 100vh;
     background-size: cover;
@@ -71,33 +79,28 @@ body {
     justify-content: center;
     align-items: center;
 }
-#hero-4 .hero-content {
+#hero-3 .hero-content {
+    margin-top: 350px;
     text-align: center;
     color: white;
-    padding-top: 100px;
+    text-shadow: 5px 5px 8px black;
 }
-#hero-4 h1 {
+#hero-3 h1 {
     font-size: 72px;
-    margin-bottom: 36px;
+    margin-bottom: 24px;
 }
-#hero-4 h4 {
-    font-size: 24px;
+#hero-3 h4 {
+    font-size: 36px;
     margin: 0px;
 }
-#hero-4 a {
+#hero-3 a {
     display: inline-block;
-    background-color: white;
-    color: #333333;
+    background-color: rgb(57, 57, 132);
+    color: white;
     text-decoration: none;
     padding: 24px;
-    margin-top: 36px;
+    margin-top: 24px;
     margin-right: 12px;
-    margin-left:12px
-}
-.parallax-banner {
-    height: 50vh;
-    margin: 100px 0px;
-    background-image: url("../images/emerald-seas.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    margin-left: 12px;
+    text-shadow: none;
 }
