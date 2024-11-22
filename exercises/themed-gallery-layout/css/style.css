@@ -6,18 +6,19 @@ body {
     font-family: sans-serif;
 }
 #layout {
-    margin: 24px;
+    margin: 0px;
     text-align: center;
 }
 .grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 36px;
+    gap: 40px;
     padding: 12px;
     align-items: center;
+    margin-top: 24px;
 }
 .grid-gallery img {
-    width: 325px;
+    width: 100%;
 }
 #hero-2 {
     background-image: url("../images/IMG_4386.png");
