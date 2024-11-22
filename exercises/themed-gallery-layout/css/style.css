@@ -6,8 +6,7 @@ body {
     font-family: sans-serif;
 }
 #layout {
-    max-width: 1500px;
-    margin: 48px;
+    margin: 24px;
     text-align: center;
 }
 .grid-gallery {
@@ -21,22 +20,24 @@ body {
     width: 325px;
 }
 #hero-2 {
-    background-image: url("../images/Tezza-9601.JPG");
+    background-image: url("../images/IMG_4386.png");
     height: 100vh;
-    background-size: center;
+    background-size: cover;
     background-position: center center;
     display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding-right: 60px;
-    margin-bottom: 100px;
+    color: white;
+    text-shadow: 5px 5px 12px black;
 }
 #hero-2 h2 {
     font-size: 72px;
-    margin-bottom: 36px;
+    margin-bottom: 0px;
+    margin-right: 36px;
 }
 #hero-2 h4 {
     font-size: 24px;
     margin-bottom: 0px;
+    margin-right: 36px;
 }
