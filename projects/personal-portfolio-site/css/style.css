@@ -4,10 +4,10 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color:pink
+    background-color: rgb(118, 47, 93);
 }
 #hero {
-    background-image: url(../images/hero.avif);
+    background-image: url(../images/Tezza-7882.JPG);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -16,14 +16,13 @@ body {
     font-size: 48px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding-top: 400px;
-    text-align: right;
-    padding-right: 50px;
+    text-align: left;
+    margin-left: 100px;
     color: white;
+    margin-top: 0px;
 }
 .single-column {
-    min-width: 600px;
-    max-width: 1000px;
-    margin: 0px auto;
+    margin-left: 100px;
 }
 #card-section {
     background-color: #5b00ed;
@@ -35,14 +34,16 @@ body {
     justify-content: space-between;
 }
 .card {
-    flex: 1;
+    width: 250px;
     border: 3px solid #bfefff;
     padding: 18px;
     text-align: center;
     margin: 36px;
 }
 #cards img {
-    width: 200px;
+    width: 100%;
+    object-fit: cover;
+    height: 300px
 }
 .grid-gallery {
     display: grid;
@@ -52,5 +53,5 @@ body {
     align-items: center;
 }
 .grid-gallery img {
-    width: 200px;
+    width: 100%;
 }
