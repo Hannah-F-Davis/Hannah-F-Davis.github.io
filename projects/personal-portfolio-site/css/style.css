@@ -6,6 +6,24 @@ body {
     font-family: sans-serif;
     background-color: rgb(118, 47, 93);
 }
+#layout {
+    height: 100vh;
+    text-align: center;
+}
+.grid-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 24px;
+}
+.grid-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    border: 2px solid white;
+    padding: 8px;
+    background-color: white;
+}
 #hero {
     background-image: url(../images/Tezza-7882.JPG);
     background-size: cover;
@@ -13,16 +31,12 @@ body {
     height: 100vh;
 }
 #hero h2 {
-    font-size: 48px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    padding-top: 400px;
+    font-size: 64px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
     margin-left: 100px;
     color: white;
     margin-top: 0px;
-}
-.single-column {
-    margin-left: 100px;
 }
 #card-section {
     background-color: #5b00ed;
@@ -34,24 +48,28 @@ body {
     justify-content: space-between;
 }
 .card {
-    width: 250px;
+    flex: 1;
+    width: 100vw;
+    height: 100vh;
     border: 3px solid #bfefff;
-    padding: 18px;
+    padding: 12px;
     text-align: center;
     margin: 36px;
+    background-color: white;
 }
 #cards img {
     width: 100%;
     object-fit: cover;
-    height: 300px
+    height: 75%;
+    margin-bottom: 24px;
 }
-.grid-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 8px;
-    padding: 12px;
-    align-items: center;
-}
-.grid-gallery img {
-    width: 100%;
+.card a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(118, 47, 93);
+    padding: 8px;
+    background-color: rgb(118, 47, 93);
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 100px;
 }
