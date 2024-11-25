@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background-color: #cbb799;
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    padding: 24px;
+    color: #6f4d38;
+}
+#navbar h1 {
+    margin-right: auto;
+    color: #2D211A;
+    margin-left: 12px;
+}
+#navbar-2 {
+    background-color: #be7124;
+    display: flex;
+    align-items: center;
+}
+#navbar-2 a {
+    text-decoration: none;
+    padding: 24px;
+    color: #672802;
+    margin-right: 12px;
+}
+#navbar-2 h1 {
+    margin-right: auto;
+    color: #561b05;
+    margin-left: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar-2 .cta-button {
+    border: 2px solid tan;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: tan;
+}
+#header {
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+    text-align: center;
+    background-color: orange;
+    margin-bottom: 12px;
+}
+#header #navbar-3 a {
+    background-color: orange;
+    align-items: center;
+    text-decoration: none;
+    color: purple;
+}
+#navbar-middle {
+    background-color: purple;
+    padding-bottom: 20px;
+}
+#navbar-middle h1 {
+    text-decoration: underline;
+    color: orange;
+    text-align: center;
+    padding: 24px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-right: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#navbar-middle a {
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px;
+    color: orange; 
+    text-decoration: none;
+}
+#navbar-bottom {
+    margin: 8px;
+    border: 2px solid purple;
+    padding: 12px;
+    padding-bottom: 12px;
+}
+#navbar-bottom a {
+    justify-content: space-between;
+    margin: 24px;
+    color: purple;
+    text-decoration: none;
+    font-size: 14px;
+}
