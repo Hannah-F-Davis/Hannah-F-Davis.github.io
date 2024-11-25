@@ -7,7 +7,7 @@ body {
     background-color: rgb(118, 47, 93);
 }
 #layout {
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
 }
 .grid-gallery {
@@ -29,14 +29,17 @@ body {
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    /* position: relative; */
 }
 #hero h2 {
+    position: absolute;
     font-size: 64px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
-    margin-left: 100px;
     color: white;
     margin-top: 0px;
+    bottom: 10%;
+    left: 15%;
 }
 #card-section {
     background-color: #5b00ed;
@@ -49,10 +52,8 @@ body {
 }
 .card {
     flex: 1;
-    width: 100vw;
-    height: 100vh;
     border: 3px solid #bfefff;
-    padding: 12px;
+    padding: 8px;
     text-align: center;
     margin: 36px;
     background-color: white;
