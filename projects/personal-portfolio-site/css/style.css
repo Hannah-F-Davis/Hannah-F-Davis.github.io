@@ -41,6 +41,11 @@ body {
     bottom: 10%;
     left: 15%;
 }
+#hero a {
+    position: absolute;
+    bottom: 10%;
+    left: %
+}
 #card-section {
     background-color: #5b00ed;
     color: #bfefff;
