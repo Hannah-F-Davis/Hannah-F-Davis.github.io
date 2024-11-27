@@ -29,7 +29,7 @@ body {
     background-size: cover;
     background-position: center center;
     height: 100vh;
-    /* position: relative; */
+    position: relative;
 }
 #hero h2 {
     position: absolute;
@@ -44,11 +44,18 @@ body {
 #hero a {
     position: absolute;
     bottom: 10%;
-    left: %
+    text-decoration: none;
+    font-size: 30px;
+    padding: 12px;
+    background-color: rgb(118, 47, 93);
+    color: white;
+    border-radius: 20px;
+    bottom: 9%;
+    left: 15%;
 }
 #card-section {
-    background-color: #5b00ed;
-    color: #bfefff;
+    background-color: white;
+    color: white;
     padding: 48px;
 }
 .card-container {
@@ -57,7 +64,7 @@ body {
 }
 .card {
     flex: 1;
-    border: 3px solid #bfefff;
+    border: 3px solid white;
     padding: 8px;
     text-align: center;
     margin: 36px;
@@ -76,6 +83,7 @@ body {
     padding: 8px;
     background-color: rgb(118, 47, 93);
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 100px;
+    border-radius: 20px;
 }
