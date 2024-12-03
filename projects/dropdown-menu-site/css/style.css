@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(146, 178, 146);
+}
+#navbar {
+    background-color: rgb(80, 110, 80);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#navbar a:hover {
+    background-color: rgb(146, 178, 146);
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-menu a {
+    background-color:  rgb(80, 110, 80);
+    width: 100%;
+    min-width: 200px;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+#animal-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    min-width: 100px;
+    max-width: 400px;
+    margin: 0px auto;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 36px;
+    background-color: white;
+    margin-bottom: 48px;
+}
+#animal-card img {
+    align-items: center;
+    width: 100%;
+    padding: 0px 32px;
+    padding-bottom: 12px;
+}
+.card h1 {
+    font-size: 36px;
+    margin-top: 24px;
+}
+.card p {
+    font-size: 18px;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+#hero {
+    background: url(../images/dogs-hero-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-content #hero h1 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+#hero-content #hero p {
+    font-size: 24px;
+    margin: 0px;
+}
+#hero #hero-content {
+    margin: 50px;
+    padding: 10px 40px;
+    text-align: center;
+    position: relative;
+    top: 27%;
+    color: white;
+    border: 4px white solid;
+    background-color:  rgb(80, 110, 80);
+}
+@media screen and (max-width: 580px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    #animal-card {
+        max-width: 300px;
+    }
+    #animal-card h1{
+        font-size: 24px;
+    }
+    #navbar #logo {
+        flex-direction: column;
+        align-items: center;
+    }
+}
