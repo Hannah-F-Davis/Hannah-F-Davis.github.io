@@ -8,10 +8,12 @@ body {
 }
 #navbar {
     display: flex;
-    background-color: #636e5d;
+    background-color: #3e453a;
     align-items: center;
     position: sticky;
     top: 0px;
+    margin-right: auto;
+    font-weight: bold;
 }
 #navbar #logo {
     margin-right: auto;
@@ -41,7 +43,7 @@ body {
 }
 #hero #hero-content a {
     border: 3px solid #959d90;;
-    padding: 20px;
+    padding: 40px;
     border-radius: 25px;
     background-color: #959d90;;
     color: #223030;
@@ -53,22 +55,64 @@ body {
         opacity 0.25s,
         visibility 0.25s;
         position: absolute;
-    top: 650px;
-    left: 200px;
+    top: 700px;
+    left: 350px;
 }
 #hero #hero-content a:hover {
     background-color: white;
     border: 3px solid white;
     opacity: 1;
     visibility: visible;
-}.single-column {
+}
+#featured-item {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 40px;
+    position: relative;
+    width: 50%;
+    left: 400px;
+}
+#featured-item-content {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 40px;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    background-color: #636e5d;
+}
+#featured-item-content h2{
+    text-decoration: underline;
+    margin-bottom: 12px;
+}
+#featured-item-content a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #3e453a;
+    padding: 12px;
+    background-color: #3e453a;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 24px;
+}
+#featured-item-content a:hover {
+    color: #3e453a;
+    background-color: white;
+    border: 2px solid white;
+}
+.single-column {
     min-width: 600px;
     max-width: 1200px;
     margin: 0px auto;
 }
 #card-section {
-    background-color: #636e5d;
-    color: #bfefff;
+    background-color: white;
+    color: white;
     padding: 48px;
 }
 .card-container {
@@ -77,28 +121,207 @@ body {
 }
 .card {
     flex: 1;
-    border: 3px solid #959d90;
-    padding: 36px;
+    border: 3px solid #3e453a;
+    padding: 12px;
     text-align: center;
     margin: 36px;
+    background-color:#3e453a;
+    color: #636e5d;
 }
-.card h3 {
-    font-size: 36px;
-    margin: 0px;
-}    
-.card p {
-    font-size: 24px;
-    margin: 24px 0px 0px;
+.card:hover {
+    box-shadow: 6px 6px 6px;
+}
+.card img {
+    width: 100%;
+    object-fit: cover;
+    height: 75%;
+    margin-bottom: 25px;
 }
 .card a {
     text-decoration: none;
+    color: white;
+    border: 2px solid #636e5d;
+    padding: 8px;
+    background-color: #636e5d;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 100px;
+    border-radius: 20px;
 }
-#card-1 img {
-    height: 215px;
+.card h3 {
+    font-size: 24px;
+    color: white;
+}    
+.card a:hover {
+    background-color: white;
+    color: #636e5d;
+    border: 2px solid white;
 }
-#card-2 img {
-    height: 215px;
+.single-column-2 {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
 }
-#card-3 img {
-    height: 215px;
+#card-section-2 {
+    background-color: white;
+    color: white;
+    padding: 48px;
 }
+.card-container-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.card-2 {
+    flex: 1;
+    border: 3px solid #959d90;
+    padding: 12px;
+    text-align: center;
+    margin: 36px;
+    background-color: #959d90;
+    color:#636e5d;
+}
+.card-2:hover {
+    box-shadow: 6px 6px 6px;
+}
+.card-2 img {
+    width: 100%;
+    object-fit: cover;
+    height: 75%;
+}
+.card-2 p {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+.card-2 h2 {
+    font-size: 24px;
+    color: white;
+    margin: 16px;
+    margin-bottom: 0px;
+}    
+.card-2 a:hover {
+    background-color: white;
+    color: #636e5d;
+    border: 2px solid white;
+}
+.single-column-3 {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#card-section-3 {
+    background-color: white;
+    color: white;
+    padding: 48px;
+}
+.card-container-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.card-3 {
+    flex: 1;
+    border: 3px solid #959d90;
+    padding: 12px;
+    text-align: center;
+    margin: 36px;
+    background-color: #959d90;
+    color:#636e5d;
+}
+.card-3:hover {
+    box-shadow: 6px 6px 6px;
+}
+.card-3 img {
+    width: 100%;
+    object-fit: cover;
+    height: 75%;
+}
+.card-3 p {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+.card-3 h2 {
+    font-size: 24px;
+    color: white;
+}    
+.card-3 a:hover {
+    background-color: white;
+    color: #636e5d;
+    border: 2px solid white;
+}
+.single-column-4 {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#card-section-4 {
+    background-color: white;
+    color: white;
+    padding: 48px;
+}
+.card-container-4 {
+    display: flex;
+    justify-content: space-between;
+}
+.card-4 {
+    flex: 1;
+    border: 3px solid #959d90;
+    padding: 12px;
+    text-align: center;
+    margin: 36px;
+    background-color: #959d90;
+    color:#636e5d;
+}
+.card-4:hover {
+    box-shadow: 6px 6px 6px;
+}
+.card-4 img {
+    width: 100%;
+    object-fit: cover;
+    height: 75%;
+}
+.card-4 p {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-top: 8px;
+}
+.card-4 h2 {
+    font-size: 24px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}    
+.card-4 a:hover {
+    background-color: white;
+    color: #636e5d;
+    border: 2px solid white;
+}
+#footer {
+    background-color: #3e453a;
+    color: white;
+    padding: 30px 0px;
+}
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+#footer-navbar {
+    width: 800px;   
+    margin: 0px auto;   
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: )
