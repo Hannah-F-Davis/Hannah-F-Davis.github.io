@@ -34,7 +34,7 @@ body {
     background-color: #959d90;
 }
 #hero {
-    background: url(../images/hero-image.png);
+    background: url(../images/hero-image-5.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -43,9 +43,19 @@ body {
     align-items: center;
     position: relative;
 }
+#hero #hero-content {
+    align-items: center;
+    position: absolute;
+    bottom: 50px
+}
+#hero #hero-content h2 {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
 #hero #hero-content a {
     border: 3px solid #959d90;;
-    padding: 40px;
+    padding: 20px;
     border-radius: 25px;
     background-color: #959d90;;
     color: #223030;
@@ -56,7 +66,6 @@ body {
     transition:
         opacity 0.25s,
         visibility 0.25s;
-        position: absolute;
     top: 700px;
     left: 350px;
 }
@@ -126,6 +135,7 @@ body {
     justify-content: space-between;
 }
 .card {
+    flex-direction: column;
     flex: 1;
     border: 3px solid #3e453a;
     padding: 12px;
@@ -141,7 +151,7 @@ body {
     width: 100%;
     object-fit: cover;
     height: 75%;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 .card a {
     text-decoration: none;
@@ -151,8 +161,9 @@ body {
     background-color: #636e5d;
     font-weight: bold;
     font-size: 18px;
-    margin-top: 100px;
+    margin-top: 25px;
     border-radius: 20px;
+    display: block;
 }
 .card h3 {
     font-size: 24px;
@@ -162,6 +173,11 @@ body {
     background-color: white;
     color: #636e5d;
     border: 2px solid white;
+}
+#header-wraps h1 {
+    margin-left: 25px;
+    color: white;
+    text-shadow: 3px 3px 6px #636e5d;
 }
 .single-column-2 {
     min-width: 600px;
@@ -214,6 +230,11 @@ body {
     color: #636e5d;
     border: 2px solid white;
 }
+#header-smoothies h1 {
+    margin-left: 25px;
+    color: white;
+    text-shadow: 3px 3px 6px #636e5d;
+}
 .single-column-3 {
     min-width: 600px;
     max-width: 1200px;
@@ -262,6 +283,11 @@ body {
     background-color: white;
     color: #636e5d;
     border: 2px solid white;
+}
+#header-breakfast h1 {
+    margin-left: 25px;
+    color: white;
+    text-shadow: 3px 3px 6px #636e5d;
 }
 .single-column-4 {
     min-width: 600px;
@@ -330,9 +356,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 850px) {
     .card h3 {
-        font-size: 18px;
+        font-size: 36px;
     }
     .card {
         display: flex;
@@ -342,12 +368,21 @@ body {
         flex-direction: column;
     }
 }
-@media screen and (max-width: 1200px){
+@media screen and (min-width: 850px) and (max-width: 1600px){
     .card h3 {
-        font-size: 12px;
+        font-size: 20px;
     }
     .card {
         display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width 480px) and (max-width 850px){
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container {
         flex-direction: column;
     }
 }
